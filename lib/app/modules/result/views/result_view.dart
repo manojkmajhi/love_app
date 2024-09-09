@@ -10,13 +10,17 @@ class ResultView extends GetView<ResultController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ResultView'),
+        title: const Text('Result'),
         centerTitle: true,
       ),
       body: const Center(
         child: Text(
-          'ResultView is working',
-          style: TextStyle(fontSize: 20),
+          'Run Away',
+          style: TextStyle(
+              fontSize: 50,
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontStyle: FontStyle.italic),
         ),
       ),
     );
